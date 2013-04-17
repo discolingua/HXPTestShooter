@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="TestGame" package="com.example.app" version="0.0.1" company="Another Day, Another Game" />
+
+	<app file="TestGame" main="Main" path="bin" />
+
+	<window fps="60" resizable="true" background="0x777777" />
+	<window width="480" height="640" />
+
+	<source path="src" />
+
+	<haxelib name="nme" />
+	<haxelib name="HaxePunk" />
+
+	<assets path="graphics" rename="gfx" include="*.png" />
+	<assets path="sound" rename="snd" include="*.wav" />
+	<assets path="font" include="*.ttf" />
+
+	<icon path="HaxePunk.svg" size="256" />
+</project>
